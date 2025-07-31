@@ -1,0 +1,349 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden"
+      style='--checkbox-tick-svg: url(&apos;data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27rgb(255,255,255)%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e&apos;); font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f2f2f2] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#141414]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <h2 class="text-[#141414] text-lg font-bold leading-tight tracking-[-0.015em]">Roof&RoomMasters</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">New Arrivals</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Furniture</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Decor</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Appliances</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Sale</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                <div
+                  class="text-[#757575] flex border-none bg-[#f2f2f2] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#141414] focus:outline-0 focus:ring-0 border-none bg-[#f2f2f2] focus:border-none h-full placeholder:text-[#757575] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f2f2f2] text-[#141414] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#141414]" data-icon="Heart" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f2f2f2] text-[#141414] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#141414]" data-icon="ShoppingBag" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBYiRekRJEOMurku-XB8UDBRZ5bvfhTa1PBsoUd7H7zWgwQuZLDiSPzq6UQ55yyNcb9rj8yWEfdB0wXzWafyh14Yq53sZUV6HAZPtFAFVLHSzTLRg8PwmF7Ztr069SAbv6EqumL1QC79oif1nNZbKAKQGhWpEsbvyA6eVHbV732eksdU-W4pPXpmiw_YvmtCZwOx-RH3ClAx4DeHRegC2P6PrgVRY_4PrRzxOlThdlPuoRHxGtttxPock4xHQs_apbMgnRIe5H2ZplY");'
+            ></div>
+          </div>
+        </header>
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <h2 class="text-[#141414] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Filters</h2>
+            <div class="@container">
+              <div class="relative flex w-full flex-col items-start justify-between gap-3 p-4 @[480px]:flex-row">
+                <p class="text-[#141414] text-base font-medium leading-normal w-full shrink-[3]">Price Range</p>
+                <div class="flex h-[38px] w-full pt-1.5">
+                  <div class="flex h-1 w-full rounded-sm bg-[#e0e0e0] pl-[60%] pr-[15%]">
+                    <div class="relative">
+                      <div class="absolute -left-3 -top-1.5 flex flex-col items-center gap-1">
+                        <div class="size-4 rounded-full bg-[#141414]"></div>
+                        <p class="text-[#141414] text-sm font-normal leading-normal">$50</p>
+                      </div>
+                    </div>
+                    <div class="h-1 flex-1 rounded-sm bg-[#141414]"></div>
+                    <div class="relative">
+                      <div class="absolute -left-3 -top-1.5 flex flex-col items-center gap-1">
+                        <div class="size-4 rounded-full bg-[#141414]"></div>
+                        <p class="text-[#141414] text-sm font-normal leading-normal">$1000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="text-[#141414] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Material</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e0e0e0] border-2 bg-transparent text-[#141414] checked:bg-[#141414] checked:border-[#141414] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e0e0e0] focus:outline-none"
+                />
+                <p class="text-[#141414] text-base font-normal leading-normal">Wood</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e0e0e0] border-2 bg-transparent text-[#141414] checked:bg-[#141414] checked:border-[#141414] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e0e0e0] focus:outline-none"
+                />
+                <p class="text-[#141414] text-base font-normal leading-normal">Metal</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e0e0e0] border-2 bg-transparent text-[#141414] checked:bg-[#141414] checked:border-[#141414] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e0e0e0] focus:outline-none"
+                />
+                <p class="text-[#141414] text-base font-normal leading-normal">Fabric</p>
+              </label>
+            </div>
+            <h3 class="text-[#141414] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Color</h3>
+            <div class="flex flex-wrap gap-5 p-4">
+              <label
+                class="size-10 rounded-full border border-[#e0e0e0] ring-[color-mix(in_srgb,#141414_50%,_transparent)] has-[:checked]:border-[3px] has-[:checked]:border-white has-[:checked]:ring"
+                style="background-color: rgb(255, 255, 255);"
+              >
+                <input type="radio" class="invisible" name="d2ca5091-829a-436a-aca1-606c51507d6f" checked="" />
+              </label>
+              <label
+                class="size-10 rounded-full border border-[#e0e0e0] ring-[color-mix(in_srgb,#141414_50%,_transparent)] has-[:checked]:border-[3px] has-[:checked]:border-white has-[:checked]:ring"
+                style="background-color: rgb(0, 0, 0);"
+              >
+                <input type="radio" class="invisible" name="d2ca5091-829a-436a-aca1-606c51507d6f" />
+              </label>
+              <label
+                class="size-10 rounded-full border border-[#e0e0e0] ring-[color-mix(in_srgb,#141414_50%,_transparent)] has-[:checked]:border-[3px] has-[:checked]:border-white has-[:checked]:ring"
+                style="background-color: rgb(255, 0, 0);"
+              >
+                <input type="radio" class="invisible" name="d2ca5091-829a-436a-aca1-606c51507d6f" />
+              </label>
+              <label
+                class="size-10 rounded-full border border-[#e0e0e0] ring-[color-mix(in_srgb,#141414_50%,_transparent)] has-[:checked]:border-[3px] has-[:checked]:border-white has-[:checked]:ring"
+                style="background-color: rgb(0, 255, 0);"
+              >
+                <input type="radio" class="invisible" name="d2ca5091-829a-436a-aca1-606c51507d6f" />
+              </label>
+              <label
+                class="size-10 rounded-full border border-[#e0e0e0] ring-[color-mix(in_srgb,#141414_50%,_transparent)] has-[:checked]:border-[3px] has-[:checked]:border-white has-[:checked]:ring"
+                style="background-color: rgb(0, 0, 255);"
+              >
+                <input type="radio" class="invisible" name="d2ca5091-829a-436a-aca1-606c51507d6f" />
+              </label>
+            </div>
+            <h3 class="text-[#141414] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Brand</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e0e0e0] border-2 bg-transparent text-[#141414] checked:bg-[#141414] checked:border-[#141414] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e0e0e0] focus:outline-none"
+                />
+                <p class="text-[#141414] text-base font-normal leading-normal">Roof&RoomMasters</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e0e0e0] border-2 bg-transparent text-[#141414] checked:bg-[#141414] checked:border-[#141414] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e0e0e0] focus:outline-none"
+                />
+                <p class="text-[#141414] text-base font-normal leading-normal">Modern Living</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e0e0e0] border-2 bg-transparent text-[#141414] checked:bg-[#141414] checked:border-[#141414] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e0e0e0] focus:outline-none"
+                />
+                <p class="text-[#141414] text-base font-normal leading-normal">Rustic Charm</p>
+              </label>
+            </div>
+            <h3 class="text-[#141414] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Customer Ratings</h3>
+            <div class="px-4">
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e0e0e0] border-2 bg-transparent text-[#141414] checked:bg-[#141414] checked:border-[#141414] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e0e0e0] focus:outline-none"
+                />
+                <p class="text-[#141414] text-base font-normal leading-normal">4 Stars &amp; Up</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e0e0e0] border-2 bg-transparent text-[#141414] checked:bg-[#141414] checked:border-[#141414] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e0e0e0] focus:outline-none"
+                />
+                <p class="text-[#141414] text-base font-normal leading-normal">3 Stars &amp; Up</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e0e0e0] border-2 bg-transparent text-[#141414] checked:bg-[#141414] checked:border-[#141414] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e0e0e0] focus:outline-none"
+                />
+                <p class="text-[#141414] text-base font-normal leading-normal">2 Stars &amp; Up</p>
+              </label>
+              <label class="flex gap-x-3 py-3 flex-row">
+                <input
+                  type="checkbox"
+                  class="h-5 w-5 rounded border-[#e0e0e0] border-2 bg-transparent text-[#141414] checked:bg-[#141414] checked:border-[#141414] checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-[#e0e0e0] focus:outline-none"
+                />
+                <p class="text-[#141414] text-base font-normal leading-normal">1 Star &amp; Up</p>
+              </label>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap gap-2 p-4">
+              <a class="text-[#757575] text-base font-medium leading-normal" href="#">Furniture</a>
+              <span class="text-[#757575] text-base font-medium leading-normal">/</span>
+              <span class="text-[#141414] text-base font-medium leading-normal">Living Room Furniture</span>
+            </div>
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#141414] tracking-light text-[32px] font-bold leading-tight min-w-72">Living Room Furniture</p>
+            </div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#e0e0e0] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#757575] pb-[13px] pt-4" href="#">
+                  <p class="text-[#757575] text-sm font-bold leading-normal tracking-[0.015em]">Price (Low to High)</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#757575] pb-[13px] pt-4" href="#">
+                  <p class="text-[#757575] text-sm font-bold leading-normal tracking-[0.015em]">Price (High to Low)</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#141414] text-[#141414] pb-[13px] pt-4" href="#">
+                  <p class="text-[#141414] text-sm font-bold leading-normal tracking-[0.015em]">Popularity</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#757575] pb-[13px] pt-4" href="#">
+                  <p class="text-[#757575] text-sm font-bold leading-normal tracking-[0.015em]">New Arrivals</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#757575] pb-[13px] pt-4" href="#">
+                  <p class="text-[#757575] text-sm font-bold leading-normal tracking-[0.015em]">Ratings</p>
+                </a>
+              </div>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuARLs8uQZHrKWPwA6IWP-v4bcN-gBa_RX4n2WefzrbqOjTjdseUQmeirGMyCIuAZN7FQzN7zvgrpcgZVAQ-XNNURXm784i67O70IPVAtwrAb0Aw0BNjnz6q_vI64tazRvD0bUg6gzODh0ob6DsqiZF2O4RZ54FVMnhSzmCkHbbBJuXWY0_h26etEXhs83QGDua9F6s6ygs4N2TNLP94LIWbBD-KWQeAt5UvAuUa-fmQoREZF9qkpJIvbyS7lWshNkmi8_Arj8rSKH0f");'
+                ></div>
+                <div>
+                  <p class="text-[#141414] text-base font-medium leading-normal">Modern Sofa</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">$499</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCWvfY-bNY_wyS3uUg3RG5WcL077f75RPZEohPxPTDk3COeCA2IoKvoRwhUu8W1zvkEDqIfe-T32Zr6hbIbMsyuYxTWjQPtwX404QRFpxfBtoJ3fAwG3kI9cFfBn7hkreP-97qRr9aZBqd4Cm3d6UZb3JThfceJmukQhhY5VFwdW0oWk4XWD8kwA--TsNV_a3OSdfKPw1J_AyVMfyNcnC9M0snP1ghyRdHxAX_9AGzZg3d6YomZY2fm00eSAPJV4ZaH-swAjZ1fbdpe");'
+                ></div>
+                <div>
+                  <p class="text-[#141414] text-base font-medium leading-normal">Classic Armchair</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">$299</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB1mFPFuB8xvqGaGaQ8s2GoCf_tAVOVEKtMYa8SaAbu5ZUnKRbaJ19Rw2cquY0B3x7iiqucZLJ5YVdtAigx_mPMbZWOFdnkUxePRgnNIbk9sTQUEKFlY9imZ15TfbaLu07BNSDXwWe3yA7wZM8IRybEGncxO0RB26pExNYDDvzyVY71y3oljYbj-BdCF8Pwc5ap4zWuCXujWAyvTEKjXY-AVn2fPGepClgf0A9sMuWXUG8UuLocKAJM_tceqtB3K_ZsVn7Qt1CSoAPs");'
+                ></div>
+                <div>
+                  <p class="text-[#141414] text-base font-medium leading-normal">Contemporary Coffee Table</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">$199</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCqTAF0uISxcQq_WP20rfCLVxG_e73ybz_GRrsOr2LaQeeYYAVra7pnhn_ViehuoOSfst9JnHEGorjV3S6IOZrA-Y9KjxZO1ZOPGkYnXBHiRcj3dwjeXPPSmujmKyq3xTp5qv4PxVZO83WzOamegQa-M58d1eJSeNscwzuT4YPY57KkF6cQs0-CpCoXi9N0VKs6bnrG1rM21qXmTOrj9VXL3iJ8zX9Kr6fphddxfmgW9sPhBq_6NN3XneSHmT5YonFDtGF_ZT6rpFAY");'
+                ></div>
+                <div>
+                  <p class="text-[#141414] text-base font-medium leading-normal">Elegant Bookshelf</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">$399</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAlRAbyyFyKK6LZE3RykiZTAOx6GeNWmqP-j6_4aOppQD_ftnG8K2IXeUh7xd1S2BIcc-CQJzrXjUzP5FSyckGuK4YTDR5dBg-3Vxx_jH_sbDxTPAnPuOzfYRG72HVA9lUBsV9anCHQYGtuVVbzaFYwGrvMgXeMrGUYnjClx5HMVwrRniCp-jmzx08PKsLJTn-4lYhIm52efJl974CYucrad7wrsHoSIHNEM8DX0BHANb1RaZwWG9YnVo00F8iko32AHHiF_AoCkBF9");'
+                ></div>
+                <div>
+                  <p class="text-[#141414] text-base font-medium leading-normal">Minimalist TV Stand</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">$249</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCHuwVxxQ8s2ASGZcPlCFoxQN40PBAcsN9us4972zAOxb9m4B-v_Rcrg4eElO8Bf81TxKCwHgtuM39uKYQVwYQ115fwkFRStrxHI8ENW4xGhwe_UYcnFx8WAZHs3egbJnuH2jU2WHipzXeylm8lcZCpfvYleRdMEhuLTYqSSRT90esMi4efqVjqeonWZB6d07-5AWe9a0VJaV3LTE-tDHGDUumhaTr2TsVmXxgMzdRvYNWEON2caOyIGaBX7-dmDczzJRRWzQ247n6u");'
+                ></div>
+                <div>
+                  <p class="text-[#141414] text-base font-medium leading-normal">Rustic Side Table</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">$149</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center justify-center p-4">
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-[#141414]" data-icon="CaretLeft" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+                  </svg>
+                </div>
+              </a>
+              <a class="text-sm font-bold leading-normal tracking-[0.015em] flex size-10 items-center justify-center text-[#141414] rounded-full bg-[#f2f2f2]" href="#">1</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#141414] rounded-full" href="#">2</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#141414] rounded-full" href="#">3</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#141414] rounded-full" href="#">4</a>
+              <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-[#141414] rounded-full" href="#">5</a>
+              <a href="#" class="flex size-10 items-center justify-center">
+                <div class="text-[#141414]" data-icon="CaretRight" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
